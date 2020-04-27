@@ -1,0 +1,22 @@
+.Person {
+    width: 60%;
+    margin: 8px auto;
+    border: 1px solid #eeee;
+    box-shadow: 0 2px 3px #eeee;
+    padding: 16px;
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    .Person {
+        width : 450px;
+    }
+}
+
+/* .style {
+    cursor: pointer;
+    background-color: #888888;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    font: outline;
+} */
